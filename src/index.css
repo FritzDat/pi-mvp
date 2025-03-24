@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 1.4rem;
+}
+
+html {
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+  min-height: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: Row;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-bottom: 5px solid;
+  background-color: rgb(255, 255, 255);
+}

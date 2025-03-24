@@ -1,0 +1,74 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.loginDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: left;
+    padding: 20px;
+    min-width: 700px;
+    max-width: 1500px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.loginButton {
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#categoria {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inputPreco {
+    width: 485px;
+    appearance: textfield;
+}
+
+input {
+    width: 485px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    border-bottom: 3px solid;
+}
+
+textarea {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+label {
+    width: 175px;
+}
+
+textarea {
+    resize: none;
+}
+
+select {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
