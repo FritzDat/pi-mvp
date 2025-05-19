@@ -1,7 +1,7 @@
 import React from "react";
 import "./card.css";
 
-export default function Card({ product }) {
+export default function Card({ product, deleteProduct }) {
   return (
     <div className="card">
       <div className="titleCard">
@@ -14,7 +14,13 @@ export default function Card({ product }) {
       </div>
       <div className="precoCard">
         <p className="preco">R$ {product.preco}</p>
-        <a href="">Comprar</a>
+        <button href="#">Comprar</button>
+        <button
+          onClick={() => deleteProduct(product.id)}
+          className="deleteButton"
+        >
+          Deletar
+        </button>
       </div>
     </div>
   );
