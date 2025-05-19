@@ -48,9 +48,11 @@ const App = () => {
 
   return (
     <Router>
-      <nav className='navbar'>
-        <Link to="/cadastro">Cadastro</Link>
-        <Link to="/card">Card</Link>
+      <nav className='navbar'>        
+        <Link to="/card"></Link>
+        <Link to="/cadastro">CADASTRO</Link>
+        <Link to="/card">CARD</Link>
+        <Link to="/card"></Link>
       </nav>
       <Routes>
         <Route path="/cadastro" element={<Cadastro addProduct={addProduct} />} />

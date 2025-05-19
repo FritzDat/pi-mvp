@@ -25,16 +25,17 @@ export default function Cadastro({ addProduct }) {
   };
 
   return (
+    
     <div className="mainDiv">
       <div className="loginDiv">
-        <h2>Produto</h2>
+        <h2>PRODUTO</h2>
         <form onSubmit={handleSubmit}>
           <div className="loginForm">
             <label htmlFor="name">Nome:</label>
             <input type="text" placeholder="Insira o nome" name="name" value={formData.name} onChange={handleChange} required />
           </div>
           <div className="loginForm">
-            <label htmlFor="preco">Preço: R$</label>
+            <label htmlFor="preco">Preço (R$):</label>
             <input className="inputPreco" type="number" placeholder="Insira o preço" name="preco" value={formData.preco} onChange={handleChange} required />
           </div>
           <div className="loginForm">
@@ -50,7 +51,7 @@ export default function Cadastro({ addProduct }) {
             <label htmlFor="descricao">Descrição:</label>
             <textarea name="descricao" cols="25" rows="5" placeholder="Insira a descrição" value={formData.descricao} onChange={handleChange} required />
           </div>
-          <h2>Vendedor</h2>
+          <h2>VENDEDOR</h2>
           <div className="loginForm">
             <label htmlFor="vendedor">Vendedor:</label>
             <select name="vendedor" value={formData.vendedor} onChange={handleChange}>

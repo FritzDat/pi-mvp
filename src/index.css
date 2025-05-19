@@ -1,9 +1,8 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
   text-decoration: none;
-  font-family: arial;
-  font-size: 1.4rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
 }
 
 html {
@@ -17,13 +16,15 @@ body {
 
 .navbar {
   display: flex;
-  flex-direction: Row;
-  align-items: center;
+  flex-direction: row;
+  align-items: center;  
   justify-content: center;
-  gap: 200px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  border-bottom: 5px solid;
-  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-bottom: 2px solid;
+  background-color: rgba(118, 227, 149, 0.5);
+}
+
+.navbar a {
+  color: black;
+  font-style: bold;
 }
